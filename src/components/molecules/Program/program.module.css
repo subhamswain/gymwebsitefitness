@@ -1,0 +1,20 @@
+.container {
+  margin: 2rem 8vw 2rem 8vw;
+  text-align: center;
+  
+  
+  font-weight: 750;
+}
+
+.wraper {
+  height: 32vh;
+  width: 86vw;
+  display: flex;
+  gap: 1.5rem;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+}
+.wraper::-webkit-scrollbar {
+  display: none;
+}
